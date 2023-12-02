@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let fruits=["apple","banana","orange","guava"]//
+        // fruits.push("litch")//push work is add
+        //  document.write(`<li>${fruits}</li><br>`)//
+        // fruits.pop()
+        // document.write(fruits.indexOf("banana")+"<br>")
+        // document.write(fruits.length+"<br>")
+        // //foreach doesnot return the value and also doesnot create new array 
+        // //map return the a value as well as creates a new array
+        // fruits.forEach((value,index,array)=>{
+        //     document.write(`<li>${value}:${index}:${array}</li>`)//index ko theu ma index +1 garesi 1 dekhi value aauxa
+        // })
+
+
+        // fruits.forEach((i,a,array)=>{
+        //     if(i.length%2==0)
+        //     {
+        //         document.write(i)
+        //     }
+        // })
+
+
+
+        //  let result=fruits.forEach((i,a,array)=>{
+        //     if(i.length%2==0)
+        //     {
+        //         return i
+        //     }
+        // })
+        // document.write(result)//undefined
+
+
+        //using map
+        //  let result=fruits.forEach((i,a,array)=>{
+        //     if(i.length%2==0)
+        //     {
+        //         return i
+        //     }
+        // })
+        // document.write(result+"<br>")
+        // let num=[1,5,7,2,9,2,4]//value nikalne kaam chai map le garxa ex:num vitra ko 1 3 5 ..value nikalne
+        // let new_array=num.map((i)=>{
+        //     // document.write(`<li>${i}</li>`)
+        //     if(i%2==0)
+        //     {
+        //         return i
+        //     }
+        //     else{
+        //         return 0
+        //     }
+        // })
+        // document.write(new_array)
+
+
+
+        // let num=[1,3,5,2,4,7,5,2,8]//value nikalne kaam garxa  filter le
+        // let result=num.filter((n)=>{
+        //     if(n%2==0){
+        //         return n
+        //     }
+        //     else{
+        //         return 0
+        //     }
+        // })
+        // document.write(result)
+
+
+        let num=[2,2,3,4,5]
+        let result=num.reduce((cv,nv)=>{
+            //curent value supose cv and next valve supose nv
+            return cv+nv
+        })
+        document.write(result)
+       // // cv=2
+       // // nv=2
+       // // 2
+       // // cv=4
+       // // nv=3
+      //  // 7
+       // // cv=7
+      //  // nv=4
+       // // 11
+       // // cv=11
+       // // nv=5
+       // // 16
+
+    </script>
+</body>
+</html>

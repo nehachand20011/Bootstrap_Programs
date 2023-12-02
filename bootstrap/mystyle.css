@@ -1,0 +1,27 @@
+.custom-navbar{
+    background-image: linear-gradient(to right,#ffa8ae, #15015e);
+    /* position:sticky; */
+    top:0;
+    z-index: 1;
+
+
+}
+.custom-image{
+    height: 450px;
+
+   
+}
+.card-img-top{
+    height: 200px;
+    transition: 2s;
+}
+.card-img-top:hover{
+    transform: scale(1.5);
+}
+.img-div{
+    overflow: hidden;
+}
+
+.card{
+    overflow:hidden;
+}

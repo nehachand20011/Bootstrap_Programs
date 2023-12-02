@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let text="Ram is a boy"
+        //to check length of the given string
+        let l=text.length
+        document.write(`${l}<br>`)
+
+        let a=text.toUpperCase()
+        document.write(`${a}<br>`)
+
+        let b=text.toLowerCase()
+        document.write(`${b}<br>`)
+
+        let c=text.replace("boy","girl")
+        document.write(`${c}<br>`)
+
+        let fname="ram"
+        let lname="singh"
+
+        let fullname=fname.concat(" ",lname)
+        document.write(`${fullname}<br>`)
+
+        //substing,substr,slice
+        // let d=text.slice(2,7)
+        let d=text.slice(-3,-1)
+        document.write(`${d}<br>`)
+//slice and substring is same but substring are not find the -ve values and slice and substring le strat endex dekhi last index samma valve linxa
+        let e=text.substring(2,8)
+        document.write(`${e}<br>`)
+
+        //strting index liyepaqxi tespaxi ko length count garxa substr le
+        let f=text.substr(2,8)
+        document.write(`${f}<br>`)
+
+        let g=text.indexOf("m")
+        document.write(`${g}<br>`)
+
+
+    </script>
+</body>
+</html>

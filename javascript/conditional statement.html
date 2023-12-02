@@ -1,0 +1,106 @@
+<!-- conditional statements:
+if, if else, if elseif else
+switch
+ternary operation 
+it returns true statement condition if the condition is true else it returns false condition -->
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let today="rain"
+        // if(today=="sunney")
+
+        if(today=="rain"){
+
+            document.write("bring umbrella <br>")
+        }
+        else{
+            document.write("dont bring umbrella <br>")
+        }
+        // WAP TO PRINT IF NTHR PERSON IS VALID FPR DRIVERS LICENSE OR NOT MUCT BE EQUAL AND OVER 18 YEARS OLD FOR VALID
+        // let age=Number(prompt("enter you age"))
+        // //prompt ko agadi number na lelkjesi string ma aauxa ra type of age na lekhesi direct ans aauxa ra typeof age lekhesi string ma aauxa
+        // document.write(typeof(age))
+        // if(age>=18){
+        //     document.write("valid for driver license")
+        // }
+        // else{
+        //     document.write("not valid<br>")
+        // }
+        // // WAP TO CHECK IF THE INPUT NUMBER IS EVEN OR ODD
+        let n=Number(prompt("enter a number"))
+        if(n%2==0){
+        document.write("it is even <br>")
+        }
+        else{
+            document.write("it is odd <br>")
+        }
+
+        //WAP TO CHECK IF THE AGE IS CHILD ADULT OR OLD
+        //CHILD=0-17
+        //ADULT=18-59
+        // OLD=60-100
+
+
+        let age=12
+        if(age>=0 && age<=17){   
+            //&& le  range milaune kaam garxa
+            document.write("child <br>")
+        }
+        else if (age>=18 && age<=59){
+                document.write("adult <br>")
+        }
+         if (age>=60 && age<=100){
+            document.write("old <br>")
+         }
+
+
+         //WAP TO CHECK THE PRECENTAGE
+        //  0-39=FAIL
+        // 40-59=3RD DIVISION
+        // 60-69=2ND DIVISION
+        // 70-79=1ST DIVISION
+        // 80-100=DISTINCTION
+        // 101=NOT VALID PERCENTAGE
+
+        let p=100
+        if(p>=0 && p<=39){
+            document.write("fail <br>")
+        }
+        
+       
+         else if (p>=40 && p<=59){
+            document.write("3rd division <Br>")
+        }
+         if (p>=60 && p<=69){
+            document.write("2nd division <br>")
+
+         }
+         else if (p>=70 && p<=79){
+            document.write("1st division <br>")
+
+         }
+        
+
+         if(p>=80 && p<=100){
+            document.write(" distinction <br>")
+        }
+        else if (p>=101){
+            document.write("not valid precentage <br>")
+
+         }
+        
+         
+
+    </script>
+    
+</body>
+</html>

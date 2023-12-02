@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation1</title>
+    <style>
+        .demo{
+            height: 300px;
+            width: 300px;
+            text-align: center;
+            margin-left: 40px;
+            margin-top: 40px;
+            transform: rotate(30deg);
+             background-color: rgb(4, 145, 91); 
+            animation-name:myanimation1 ; 
+             animation-duration: 3s;   
+               /* animation-iteration-count: 3;    */
+          /* animation-direction:reverse; */
+           animation-direction: alternate; 
+          animation-fill-mode:backwards; 
+          animation-timing-function:ease; 
+          /* animation-delay: 3s; */
+        
+             animation: myanimation1 3s ease 0s infinite alternate forwards;  
+        }
+
+        @keyframes myanimation1{
+
+        from{
+            background-color: yellow;
+        }
+        to{
+            background-color: red;
+             /* transform: rotate(360deg) translate(200px,200px)scale(1.7);   */
+            transform: translate(200px); 
+        }
+    }
+    @keyframes myanimation2{
+        0%{
+
+        }
+        25%{
+            background-color: rgb(0, 30, 255);
+            transform: translate(200px);
+        }
+       50%{
+        background-color: rgb(0, 255, 255);
+        transform: rotate(360deg);
+       }
+       75%{
+        background-color: green;
+        transform: skew(60deg,60deg);
+
+
+       }
+       100%{
+        background-color: rgb(12, 9, 5);
+        border-radius: 5px;
+       }
+
+    }
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="demo">Demo</div>
+</body>
+</html>

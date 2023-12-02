@@ -1,0 +1,47 @@
+#wrapper{
+	width:1020px;
+	height:500px;
+	background-color:brown;
+
+}
+
+#header{
+	width:1020px;
+	height:75px;
+	background-color:red;
+
+}
+
+#menuTop{
+	width:1020px;
+	height:75px;
+	background-color:coral; 
+}
+
+#columnleft{
+	width:240px;
+	height:350px;
+	background-color:silver; 
+	float:left; 
+}
+
+#columnright{
+	width:240px;
+	height:350px;
+	background-color:cyan;
+	float:right; 
+
+}
+
+#content{
+	width:584px; 
+	height:350px;
+	background-color:lime;
+	margin-left: 220px; 
+}
+
+#footer{
+	width:1020px;
+	height:75px;
+	background-color:gray;
+}

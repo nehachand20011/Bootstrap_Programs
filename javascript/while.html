@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while</title>
+</head>
+<body>
+    <script>
+        // for(let i=1;i<=10;i++){
+        //     document.write(`${i}<br>`)
+        // }
+        //USING WHILE
+        let i=1
+        while(i<=10){
+            document.write(`${i}<br>`)
+            i++
+        }
+        //WRITE TO THE DIGITS OF GIVEN NUMBER
+        // OUTPUT=>3471=>3+4+7+1=>15
+
+        // let a=34712
+        // let sum=0
+        // let count=0
+
+        // while(a!=0){
+        //     let b=a%10
+        //     sum=sum+b
+        //     a=Math.floor(a/10)
+        //     cont++
+
+
+        // }
+        // document.write(`the sum  is ${sum}`)
+        // document.write(`the count is ${count}`)
+
+
+        //WRITE TO COUNT THE DIGITD OF GIVEN NUMBER
+        //WRITE TO PRINT THE REVERSE OF GIVEN NUMBER
+        // OUTPUT=>1743
+
+        // let a=34712
+        // let rev=0
+        
+
+        // while(a!=0){
+        //     let b=a%10
+        //     rev=(rev*10)+b
+        //     a=Math.floor(a/10)
+           
+
+
+        // }
+        // document.write(`the sum  is ${rev}`)
+       
+
+
+        let a=11011
+        let temp=a
+        let rev=0
+        
+
+        while(a!=0){
+            let b=a%10
+            rev=(rev*10)+b
+            a=Math.floor(a/10)
+           
+
+
+        }
+        if(temp==rev){
+            document.write("it is palindrome")
+        }
+        else{
+            document.write("it is not palindrome")
+        }
+        document.write(`the sum is ${rev}`)
+     
+       
+
+
+
+
+    </script>
+<!-- CASE1
+a=3471
+b=1
+rev==>0*10+1=1
+a=347
+
+
+CASE2
+a=347
+b=7
+rev=(rev*10)+b=1*10+7=17
+a=34
+
+
+CASE3
+a=34
+b=4
+rev=(rev*10)+b*1710+4=174
+a=3
+
+
+CASE4
+a=3
+b=3
+rev=(rev*10)+b=174*10+3=1743
+a=0
+
+-->
+
+
+
+
+
+
+
+
+    <!-- CASE1 
+          a=3471
+          b=3471%10=1
+          sum=sum+b=0+1=1
+          a=a/10=347
+          count=1
+
+          CASE2
+          a=347
+          b=347%10=>7
+          sum=sum+b=1+7=8
+          a=374/10=>34
+          count=2
+
+
+          CASE3
+          a=34
+          b=34%10=>4
+          sum=sum+b=8+4=12
+          a=34/10=3
+          count=3
+
+
+          CASE4
+          a=3
+          b=3%10=3
+          sum=sum+b=12+3=15
+          a=3/10=0
+          count=4
+
+
+        
+
+    -->
+  
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=Math.random()*6//rondom le chai *6 nhnda kam ko value nikalxa
+        //round le chai 2.5 bhayo bhane chai 3 aauxa outherwise 2 nai aauxa
+        //trunc le chai 2.63773 xa bhnne ni agadi value nikalxa means 2 agadi jun vale hunxa teyi nikalxa
+        //floor same as trunc
+        //ceiling le chai decimal ma value aaune bittikai +1 le encrease garxa example:3 xa bhne value 3 nai show hunxa if 3.01 xa bhnee 4 value show hunxa
+        //tofixed ma chai jati value diyo means value is (2) decimal paxi teti nai value aauxa example:2.34
+        //toprecision ma chai jati value diyo value is (3)hole total ma chai teti value show hunxa example:2.23
+        document.write(`random:${num}<br>`)
+        document.write(`random:${Math.round(num)}<br>`)
+        document.write(`Truncate:${Math.trunc(num)}<br>`)
+        document.write(`Floor:${Math.floor(num)}<br>`)
+        document.write(`ceiling:${Math.ceil(num)}<br>`)
+        let n=64
+        document.write(`squareroot:${Math.sqrt(n)}<br>`)
+        document.write(`cuberoot:${Math.cbrt(27)}<br>`)
+        document.write(`Power:${Math.pow(2,3)}<br>`)
+        document.write(`Fixed:${num.toFixed(2)}<br>`)
+        document.write(`Precision:${num.toPrecision(2)}<br>`)
+        document.write(`Pi:${Math.PI}<br>`)
+
+
+
+    </script>
+</body>
+</html>

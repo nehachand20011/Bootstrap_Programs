@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+</head>
+<body>
+    <script>
+        let today=new Date()
+        document.write(`${today}<br>`)
+        let new_date=new Date(2015,07,25.03,07,09)
+        document.write(`${new_date}<br>`)
+
+        let year=today.getFullYear()
+        document.write(`${year}<br>`)
+
+        let month=today.getMonth()
+        document.write(`${month}<br>`)
+
+        let month_array=["jan","fab","mar","apr","may","jun","jul","aug","sept","oct","nov","dec"]
+        let month_name=month_array[month]
+        document.write(`${month_name}<br>`)
+
+        let get_date=today.getDate()
+        document.write(`${get_date}<br>`)
+
+       let get_day=today.getDay()
+       document.write(`${get_day} <br>`)
+
+       let week_array=["sun","mon","tues","wed","thur","fri","sat"]
+       let week_name=week_array[get_day]
+       document.write(`${week_name}<br>`)
+
+       let hour=today.getHours()
+       let min=today.getMinutes()
+       let sec=today.getSeconds()
+       document.write(`${hour}:${min}:${sec}<br>`)
+
+
+    </script>
+</body>
+</html>

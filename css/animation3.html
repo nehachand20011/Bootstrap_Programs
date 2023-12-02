@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            animation-name: animation3;
+            animation-delay: 3s;
+            animation-duration: 3s;
+            position: absolute;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes animation3{
+            0%{
+                background-color: brown;
+                top:0;
+                left: 0;
+            }
+            25%{
+                background-color: yellowgreen;
+                top: 0;
+                left: 300px;
+            }
+            50%{
+                background-color: aqua;
+                top: 300px;
+                left: 150px;
+            }
+            75%{
+                background-color: orangered;
+                top: 0;
+                left: 0;
+            }
+            /* 100%{
+                background-color: palevioletred;
+                top: 0;
+                left: 0;
+            }
+
+        } */
+    </style>
+</head>
+<body>
+<div class="container">
+
+</div>
+</body>
+</html>
